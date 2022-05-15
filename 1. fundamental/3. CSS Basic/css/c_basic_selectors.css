@@ -1,0 +1,20 @@
+/* External Stylesheets */
+body {
+  margin: 10px;
+}
+
+.product {
+}
+
+/* 
+a[target (attribute)]
+a[_target]
+a[href="https://google.com"] - exact match, not good to use
+a[href *="google"] - if the word exist
+a[href ^="https"] - start with the given value
+a[href $=".com"] - end with the given value
+a[target][target] - multiple selector
+*/
+a[href$=".com"] {
+  color: rgb(128, 110, 8);
+}

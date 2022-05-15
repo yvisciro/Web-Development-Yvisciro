@@ -1,0 +1,15 @@
+body {
+  margin: 10px;
+}
+
+/* 
+    depended on the element location
+    #products p - apply any paragraph element inside the products
+    #products  > p - apply the first paragraph
+    #products + - after the products/section element
+    #products ~ - apply all paragraph after the products/section element
+*/
+
+#products ~ p {
+  color: blue;
+}

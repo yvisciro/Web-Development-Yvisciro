@@ -1,0 +1,72 @@
+body {
+  margin: 10px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  float: left;
+}
+
+.box1 {
+  background: linear-gradient(to right, rgb(123, 112, 231), rgb(243, 99, 3));
+}
+
+.box2 {
+  background: linear-gradient(
+    to bottom right,
+    rgb(157, 212, 4),
+    rgb(253, 52, 96)
+  );
+}
+
+.box3 {
+  background: linear-gradient(90deg, rgb(230, 15, 15), rgb(0, 110, 96) 30%);
+}
+
+.box4 {
+  background: linear-gradient(
+    45deg,
+    rgb(228, 24, 150),
+    rgb(11, 243, 3),
+    rgb(24, 47, 245)
+  );
+}
+
+.box5 {
+  width: 600px;
+  height: 300px;
+  background: radial-gradient(yellow, white);
+}
+
+.box6 {
+  width: 600px;
+  height: 300px;
+  background: radial-gradient(circle, rgb(0, 255, 136), white);
+}
+
+.box7 {
+  width: 600px;
+  height: 300px;
+  background: radial-gradient(
+    circle at top left,
+    rgb(4, 243, 132),
+    rgb(218, 0, 83)
+  );
+}
+
+.box8 {
+  width: 600px;
+  height: 300px;
+  background: rgb(224, 1, 1);
+  background: linear-gradient(
+    190deg,
+    rgba(224, 1, 1, 1) 0%,
+    rgba(201, 5, 24, 1) 21%,
+    rgba(255, 238, 0, 1) 48%,
+    rgba(71, 11, 186, 1) 73%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

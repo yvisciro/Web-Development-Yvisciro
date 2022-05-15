@@ -1,0 +1,42 @@
+body {
+  margin: 10px;
+}
+
+/* 
+    :first-child - first element
+    :first-of-type - one element with different tag type
+    p:first-of-type 
+
+*/
+
+article :last-child {
+  /* font-size: 150%;
+    font-style: italic; */
+  font-weight: bold;
+}
+
+/* 
+    ul li:nth-child(odd)
+    ul li:nth-child(even)
+    ul li:nth-child(3n)
+*/
+
+ul li:nth-child(odd) {
+  color: darkmagenta;
+}
+
+a:visited,
+a:link {
+  color: royalblue;
+}
+
+a:hover,
+a:focus {
+  font-size: 120%;
+  color: deeppink;
+}
+
+li:hover:nth-child(even) {
+  font-size: 120%;
+  color: red;
+}

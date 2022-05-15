@@ -1,0 +1,90 @@
+body {
+  margin: 10px;
+}
+
+div {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(240, 240, 240);
+  margin: 5px;
+  float: left;
+}
+
+.box1 {
+  border: 10px solid red;
+}
+
+.box2 {
+  border: 10px dashed rgb(255, 8, 90);
+}
+
+.box3 {
+  border: 10px dotted rgb(1, 252, 34);
+}
+
+.box4 {
+  border: 10px double rgb(48, 2, 255);
+  border-radius: 50%;
+}
+
+.box5 {
+  border: 10px ridge rgb(48, 2, 255);
+  border-bottom: 20px dotted rebeccapurple;
+}
+
+.box6 {
+  border: 10px dashed rgb(255, 8, 90);
+  border-width: 40px 30px 20px 10px;
+  /* trbl, tr, all */
+  border-style: groove;
+  border-radius: 10%;
+}
+
+.box7 {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background: linear-gradient(red, blue);
+}
+
+.box8 {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: rgb(16, 151, 230);
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid rgb(10, 212, 54);
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+
+.box8:before {
+  border-bottom: 80px solid rgb(83, 224, 17);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+
+.box8:after {
+  position: absolute;
+  display: block;
+  color: rgb(20, 245, 159);
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid rgb(90, 51, 231);
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}

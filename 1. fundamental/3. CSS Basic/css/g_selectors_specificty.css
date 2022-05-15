@@ -1,0 +1,19 @@
+body {
+  margin: 10px;
+}
+
+.highlight {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+#products {
+  /* color: blue !important; */
+}
+
+.featured #products {
+  color: blueviolet;
+}
